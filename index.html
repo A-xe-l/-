@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор продуктивности</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="box">
+    <header>
+        <nav>
+            <ul>
+                <li>Тайм-менеджер</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="pp">Калькулятор продуктивности</h1>
+        <p class="pp2">Калькулятор, который считает ваше время и делает диаграмму.</p>
+
+        <form id="hours">
+            <div class="box1">
+                <label>Работа:</label>
+                <input type="number" id="work" placeholder="Часы" min="0" max="24">
+            </div>
+
+            <div class="box1">
+                <label>Учеба:</label>
+                <input type="number" id="study" placeholder="Часы" min="0" max="24">
+            </div>
+
+            <div class="box1">
+                <label>Игры:</label>
+                <input type="number" id="games" placeholder="Часы" min="0" max="24">
+            </div>
+
+            <div class="box1">
+                <label>Отдых:</label>
+                <input type="number" id="relax" placeholder="Часы" min="0" max="24">
+            </div>
+
+            <button id="button1" type="submit">Вывести результат</button>
+        </form>
+
+        <p id="result"></p>
+
+    </div>
+    </div>
+    <canvas id="myChart" width="300" height="300"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="b.js"></script>
+    
+</body>
+</html>

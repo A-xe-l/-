@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-radius: 20px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+        height:100vh;
+}
+nav ul{
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+}
+.box{
+        width: 500px;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.pp{
+    align-items: center;
+    margin-left: 50px;
+}
+.pp2{
+    align-items: center;
+    margin-left: 25px;
+}
+#button1{
+
+}
+#hours {
+display: flex; /* Включаем Flexbox */
+    flex-direction: column; /* Элементы (строки) идут сверху вниз */
+    align-items: center; /* Центрируем все дочерние элементы по горизонтали */
+    gap: 15px; /* Добавляем вертикальный отступ между строками */
+}
+.box1{
+display: flex; /* Включаем Flexbox для этой строки */
+    flex-direction: row; /* Элементы идут слева направо */
+    justify-content: center; /* Центрируем input и select внутри их блока */
+    gap: 10px; /* Небольшой горизонтальный отступ между input и select */
+    
+    /* Убедимся, что вся строка не шире, чем нужно для центрирования: */
+    width: fit-content;
+}
+#button1{
+    padding: 10px;
+    background-color: lime;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
